@@ -44,38 +44,14 @@ for tweet in tweepy.Cursor(api.search, keyword, lang="en").items(numberOfTweets)
         break
 
 
-# In[11]:
+# In[13]:
 
 
-text[2]
+tweet.text
 
 
-# In[19]:
+# In[14]:
 
 
-
-
-
-# In[21]:
-
-
-
-
-
-# In[22]:
-
-
-
-
-
-# In[24]:
-
-
-
-
-
-# In[25]:
-
-
-
+time
 
